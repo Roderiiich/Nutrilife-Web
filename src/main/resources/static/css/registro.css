@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Cocomat Pro';
+    src: url('/font/CocomatPro-Regular.otf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cocomat Pro'; 
+}
+
+body{
+    background-image: url('img/fondo1.jpg');
+    background-repeat: repeat;
+    width: 100%;
+    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: #e7f5d1; 
+    width: 100%;
+}
+.titulos-login{
+    padding: 20px;
+    color: #446323;
+    font-weight: bold;
+    font-size: 60px;
+}
+.titulos-login span{
+    color: rgb(253, 172, 22);
+  
+}
+
+.contenedor-registro {
+    width: 100%;
+    max-width: 500px; /* Ajusta el ancho máximo según tu diseño */
+  padding: 0px 50px 20px 50px;
+    background-color:#e7f5d1;
+    border-radius: 10px;
+    
+    text-align: center;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.555);
+}
+
+.formulario1 form {
+    display: flex;
+    flex-direction: column;
+}
+.formulario1 label{
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+   
+}
+.formulario1 input{
+    transition: all 0.2s;
+    border: 2px solid #446323;
+    margin-bottom: 20px;
+}
+.formulario1 input:hover{
+    background-color: rgb(155, 245, 155);
+    border: 2px solid #446323;
+    transition: all 0.2s;
+}
+
+.btnRegistrate {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: 2px solid #446323;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    border-radius: 20px;
+    background-color: #446323;
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.info {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info:hover {
+    text-decoration: underline;
+}
+
+.ofertas {
+    margin-bottom: 20px;
+    font-size: 14px;
+}

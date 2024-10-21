@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Cocomat Pro';
+    src: url('/font/CocomatPro-Regular.otf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cocomat Pro'; 
+    font-size: 22px;
+}
+
+header.sticky ul li a {
+    color:#ffffff
+    }
+header.sticky{
+    padding: 10px 100px;
+    background-color: #b8e28a;
+    }
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    transition: 0.5s;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100000;
+    background-color: #b8e28a;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.logo{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: 0.1s;
+    width: 100px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.navbar-brand span{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.nav-link{
+    border-radius:10px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    
+}
+
+
+.nav-link:hover{
+    background-color:#ff8c08;
+    border-radius:10px;
+    transform: scale(1.2);
+    transition: 0.2s ;
+}
+#barra{
+    background-color: #b8e28a;
+    width: 100%;
+}
+
+li{
+    background-color:#6c9e37;
+    border: 1px solid #6c9e37 ;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#btninicio{
+    background-color: #ff8c08;
+}
+#btninicio:hover{
+    background-color: #fffb0c;
+}
+/* FIN DE ESTILOS DE NAVBAR */
+
+body{
+    padding-top: 200px;
+    background-image: url('img/fondo1.jpg');
+    background-repeat: repeat;
+    width: 100%;
+}
+
+main{
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    padding: 20px;
+}
+
+div{
+    padding: 20px;
+}
+
+.foto{
+    width: 600px;
+    height: 500px;
+}
+img{
+    border-radius: 40px;
+    box-shadow: 3px 4px 7px black;
+}

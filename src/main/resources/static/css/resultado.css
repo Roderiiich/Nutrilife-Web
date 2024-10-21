@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Cocomat Pro';
+    src: url('/font/CocomatPro-Regular.otf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cocomat Pro'; 
+}
+
+body{
+    background-image: url('img/fondo1.jpg');
+    background-repeat: repeat;
+}
+
+h1{
+    font-weight: bold;
+}
+.logo{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: 0.1s;
+    width: 100px;
+}
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.navbar-brand span{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.nav-link{
+    border-radius:10px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    
+}
+.btn-whatsapp{
+    position:fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background:rgb(2, 136, 69) ;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0,0, 0.8);
+    z-index:100;
+    transition: 0.6s;}
+    
+ .btn-whatsapp:hover{
+    background-color:#acf74b;
+    text-decoration: none;
+    color: rgb(2, 136, 69);
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    transition: 0.6s;
+   
+ }
+
+
+.nav-link:hover{
+    background-color:#ff8c08;
+    border-radius:10px;
+    transform: scale(1.2);
+    transition: 0.2s ;
+}
+#barra{
+    background-color: #b8e28a;
+    
+    padding: 30px;
+}
+li{
+    background-color:#6c9e37;
+    border: 1px solid #6c9e37 ;
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+
+}
+
+
+#btninicio{
+    background-color: #ff8c08;
+}
+#btninicio:hover{
+    background-color: #fffb0c;
+}
+
+/* inicio de estilos para el apartado de recetas */
+
+
+#resultado{
+    background-color: #e7f5d1;
+    padding: 80px;
+    height: 100%;
+    margin-top: 60px;
+    color: #4d7a40;
+    font-weight: bold;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+#resultado span{
+    background-color: #4d7a40;
+    color: white;
+    padding: 3px;
+}
+.contenedor-principal{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    
+}
+.TITULO1{
+    font-size: 60px;
+    color: #446323;
+    font-weight: bold; 
+    text-align: center;
+}
+
+.categorias{
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+.cat{
+    justify-content: center;
+    
+}
+.cat img{
+   
+    transition: all 0.2s;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 20px;
+}
+.cat img:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+    border: 5px solid #4d7a40 ;
+    border-radius: 20px;
+   
+}
+.articulos{
+    padding: 30px;
+    
+}
+
+.card {
+    width: 400px;
+    height: 1000px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7f5d1;
+    position: relative;
+    
+    
+    
+   
+}
+.card:hover{
+    transition: all 0.2s;
+    transform: scale(1.04);
+    
+}
+
+
+.articulos-titulo{
+    text-align: center;
+    font-size: 70px;
+    padding: 20px;
+}
+.contenedor-articulos{
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   height: 100%;
+   padding: 40px;
+    
+}
+.titulo{
+    text-align: center;
+    color: #446323;
+    background-color: #e7f5d1;
+}
+.card-body{
+    
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e7f5d1;
+    
+}
+.contenedor-articulos a{
+    text-decoration: none;
+}
+.btn-leer{
+    background-color: #4d7a40;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+   
+}
+
+.btn-leer:hover{
+    text-decoration: underline;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
